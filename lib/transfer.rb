@@ -30,11 +30,11 @@ class Transfer
       # Add amount to receiver
       # Change status to "complete"
     
-    # 
-    
     
     
   end 
+  
+  def reverse
   
 end 
 
