@@ -19,7 +19,8 @@ class Transfer
   
   def execute_transaction
     
-    # Execute transaction (if there are sufficient funds)
+    # Execute transaction
+      # Unless invalid account or insufficient funds 
     # Change status to "complete"
     
     # 
