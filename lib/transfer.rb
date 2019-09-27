@@ -40,7 +40,6 @@ class Transfer
     
   end 
   
-  
 end 
 
 
