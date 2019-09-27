@@ -20,9 +20,16 @@ class Transfer
   def execute_transaction
     
     # Execute transaction
+      
       # Unless invalid account or insufficient funds 
       # Then "Transaction rejected. Please check your account balance."
       # Change status to "rejected"
+      
+      # If valid and sufficient funds
+      # Remove amount from sender
+      # Add amount to receiver
+      
+      
     # Change status to "complete"
     
     # 
