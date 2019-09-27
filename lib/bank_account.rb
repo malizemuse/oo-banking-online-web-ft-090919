@@ -14,4 +14,5 @@ end
 
 avi = BankAccount.new("Avi")
 
+puts avi
 
