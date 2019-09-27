@@ -21,6 +21,8 @@ class Transfer
     
     # Execute transaction
       # Unless invalid account or insufficient funds 
+      # Then "Transaction rejected. Please check your account balance."
+      # Change status to "rejected"
     # Change status to "complete"
     
     # 
