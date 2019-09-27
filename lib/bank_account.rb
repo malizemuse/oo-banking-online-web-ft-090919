@@ -12,7 +12,5 @@ end
 
 ## TEST CODE 
 
-avi = BankAccount.new("Avi")
 
-puts avi
 
