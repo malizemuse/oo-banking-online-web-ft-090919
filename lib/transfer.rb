@@ -19,19 +19,6 @@ class Transfer
   
   def execute_transaction
     
-    # Execute transaction
-      
-      # If valid and sufficient funds
-      # Remove amount from sender
-      # Add amount to receiver
-      # Change status to "complete"
-      
-      # Else
-      # Then "Transaction rejected. Please check your account balance."
-      # Change status to "rejected"
-      
-      
-    
     if (self.valid?) && (@sender.balance > @amount) && (@status != "complete")
       @sender.balance -= amount
       @receiver.balance += amount
