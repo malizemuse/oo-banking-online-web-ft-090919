@@ -36,6 +36,11 @@ class Transfer
   
   def reverse_transfer
     
+    # If status is "complete"
+      # 
+      
+    # Else (status is "pending" or "rejected")
+     # Do nothing
     
   end 
   
