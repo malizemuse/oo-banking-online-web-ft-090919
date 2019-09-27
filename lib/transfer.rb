@@ -28,9 +28,7 @@ class Transfer
       # If valid and sufficient funds
       # Remove amount from sender
       # Add amount to receiver
-      
-      
-    # Change status to "complete"
+      # Change status to "complete"
     
     # 
     
