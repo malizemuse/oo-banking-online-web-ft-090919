@@ -20,7 +20,7 @@ class Transfer
   def execute_transaction
     
     # Execute transaction 
-    # 
+    # Change status to "complete"
     
     
     
