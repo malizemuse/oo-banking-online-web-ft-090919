@@ -21,7 +21,7 @@ class Transfer
     
     # Execute transaction
       
-      # Unless invalid account or insufficient funds 
+      # Unless 
       # Then "Transaction rejected. Please check your account balance."
       # Change status to "rejected"
       
@@ -30,8 +30,12 @@ class Transfer
       # Add amount to receiver
       # Change status to "complete"
     
-    if self.valid?
-      @sender.
+    if self.valid? && @sender.balance > @amount
+      @sender.balance -= amount
+      @receiver.balance += amount
+      @status = "complete"
+    else #invalid account or insufficient funds 
+      ""
     
     
   end 
