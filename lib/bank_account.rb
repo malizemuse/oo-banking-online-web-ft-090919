@@ -20,7 +20,7 @@ class BankAccount
   end 
   
   def valid? 
-    
+    true if 
   end 
   
 end 
