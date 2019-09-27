@@ -41,8 +41,8 @@ class Transfer
      # Do nothing
      
      if @status == "complete"
-       @receiver -= @amount 
-       @sender += @amount 
+       @receiver.balance -= @amount 
+       @sender.balance += @amount 
        @status = "reversed"
      end 
     
