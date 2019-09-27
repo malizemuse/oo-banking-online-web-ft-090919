@@ -19,8 +19,10 @@ class Transfer
   
   def execute_transaction
     
-    # Execute transaction 
+    # Execute transaction (if there are sufficient funds)
     # Change status to "complete"
+    
+    # 
     
     
     
