@@ -35,8 +35,9 @@ class Transfer
       @receiver.balance += amount
       @status = "complete"
     else #invalid account or insufficient funds 
-      ""
-    
+      @status = "rejected"
+      "Transaction rejected. Please check your account balance."
+    end 
     
   end 
   
