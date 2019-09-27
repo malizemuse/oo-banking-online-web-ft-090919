@@ -44,7 +44,6 @@ class Transfer
        @receiver -= @amount 
        @sender += @amount 
        @status = "reversed"
-
     
   end 
   
