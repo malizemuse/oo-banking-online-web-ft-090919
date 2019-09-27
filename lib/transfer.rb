@@ -39,6 +39,12 @@ class Transfer
       
     # Else (status is "pending" or "rejected")
      # Do nothing
+     
+     if @status == "complete"
+       @receiver -= @amount 
+       @sender += @amount 
+       @status = "reversed"
+
     
   end 
   
