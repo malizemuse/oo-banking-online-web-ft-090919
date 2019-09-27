@@ -37,7 +37,9 @@ class Transfer
   def reverse_transfer
     
     # If status is "complete"
-      # 
+      # Remove amount from receiver 
+      # Add amount to sender 
+      # Change status to "reversed"
       
     # Else (status is "pending" or "rejected")
      # Do nothing
