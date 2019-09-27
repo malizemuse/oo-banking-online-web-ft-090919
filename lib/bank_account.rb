@@ -12,6 +12,6 @@ end
 
 ## TEST CODE 
 
-avi = BankAccount.new("avi")
+avi = BankAccount.new("Avi")
 
 
